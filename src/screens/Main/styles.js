@@ -8,7 +8,11 @@ export const Wrapper = styled.div`
 `;
 
 export const Header = styled.div`
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: ${({ theme }) => theme.spacing.giant};
+  border-bottom: ${({ theme }) => `2px solid ${theme.colors.border}`};
+  padding-bottom: ${({ theme }) => theme.spacing.xLarge};
 `;
 
 export const Body = styled.div`

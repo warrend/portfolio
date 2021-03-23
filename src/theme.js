@@ -7,6 +7,7 @@ const COLORS = {
   primary: "hsl(200, 90%, 50%)",
   font: "hsl(0, 0%, 7%)",
   lightFont: "hsl(0, 0%, 60%)",
+  border: "hsl(0, 0%, 92%)",
 };
 
 const TYPOGRAPHY = {
