@@ -6,7 +6,7 @@ import externalIcon from "images/external-icon.svg";
 const COLORS = {
   primary: "hsl(200, 90%, 50%)",
   font: "hsl(0, 0%, 7%)",
-  lightFont: "hsl(0, 0%, 60%)",
+  lightFont: "hsl(0, 0%, 70%)",
   border: "hsl(0, 0%, 92%)",
 };
 

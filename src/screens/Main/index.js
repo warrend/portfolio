@@ -28,15 +28,17 @@ function Main() {
   return (
     <Wrapper>
       <Header>
-        <Heading>Daniel Warren</Heading>
-        <Paragraph>{copy.about}</Paragraph>
-        <Link>
-          {copy.social.map(({ icon, link }) => (
-            <Link href={link}>
-              <Icon src={icon} />
-            </Link>
-          ))}
-        </Link>
+        <Subheading>About me</Subheading>
+        <Section>
+          <Paragraph>{copy.about}</Paragraph>
+          <Link>
+            {copy.social.map(({ icon, link }) => (
+              <Link href={link}>
+                <Icon src={icon} alt={link} />
+              </Link>
+            ))}
+          </Link>
+        </Section>
       </Header>
       <Body>
         <Subheading>Projects</Subheading>
@@ -60,7 +62,7 @@ function Main() {
         <Section>
           {copy.publications.map(({ name, publication, link, date }) => (
             <Article>
-              <Link style={{ fontWeight: 600 }} href={link}>
+              <Link style={{ fontWeight: 500 }} href={link}>
                 {name}
               </Link>
               <Meta>

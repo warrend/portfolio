@@ -3,7 +3,7 @@ const { githubIcon, linkedinIcon, codepenIcon } = theme.images;
 
 export default {
   about:
-    "I'm a software engineer currently working at Jigsaw XYZ. I've had a wide range of work experiences from designing wallpaper to copywriting for television to marketing. As a software engineer, I continually try to use my array of technical and creative skills to solve problems in more efficient ways and become a better overall developer.",
+    "Hey, I'm Daniel. I'm a software engineer currently working at Jigsaw XYZ. I've had a wide range of work experiences from designing wallpaper to writing for television. As a software engineer, I continually try to use my array of technical and creative skills to solve problems in more efficient ways and become a better overall developer.",
   social: [
     {
       icon: githubIcon,
