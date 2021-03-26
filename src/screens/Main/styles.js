@@ -15,7 +15,7 @@ export const Header = styled.div`
   border-bottom: ${({ theme }) => `5px solid ${theme.colors.border}`};
   padding-bottom: ${({ theme }) => theme.spacing.xLarge};
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
 
   @media ${({ theme }) => theme.device.tablet} {
     display: grid;
