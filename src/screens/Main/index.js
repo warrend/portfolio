@@ -18,6 +18,7 @@ import {
   Link,
   Pub,
   Meta,
+  Block,
 } from "./styles";
 
 function Main() {
@@ -41,36 +42,44 @@ function Main() {
         </Section>
       </Header>
       <Body>
-        <Subheading>Projects</Subheading>
-        <Section>
-          {copy.projects.map(({ name, description, github, demo }) => (
-            <Project>
-              <Title>{name}</Title>
-              <Paragraph>{description}</Paragraph>
-              <Links>
-                <Link href={github}>
-                  <Icon src={githubIcon} />
+        <Block>
+          <Subheading>Projects</Subheading>
+          <Section>
+            {copy.projects.map(({ name, description, github, demo }) => (
+              <Project>
+                <Title>{name}</Title>
+                <Paragraph>{description}</Paragraph>
+                <Links>
+                  <Link href={github}>
+                    <Icon src={githubIcon} />
+                  </Link>
+                  <Link href={demo}>
+                    <Icon src={externalIcon} />
+                  </Link>
+                </Links>
+              </Project>
+            ))}
+          </Section>
+        </Block>
+        <Block>
+          <Subheading>Publications</Subheading>
+          <Section>
+            {copy.publications.map(({ name, publication, link, date }) => (
+              <Article>
+                <Link style={{ fontWeight: 500 }} href={link}>
+                  {name}
                 </Link>
-                <Link href={demo}>
-                  <Icon src={externalIcon} />
-                </Link>
-              </Links>
-            </Project>
-          ))}
-        </Section>
-        <Subheading>Publications</Subheading>
+                <Meta>
+                  <Pub>{publication}, </Pub>
+                  {date}
+                </Meta>
+              </Article>
+            ))}
+          </Section>
+        </Block>
         <Section>
-          {copy.publications.map(({ name, publication, link, date }) => (
-            <Article>
-              <Link style={{ fontWeight: 500 }} href={link}>
-                {name}
-              </Link>
-              <Meta>
-                <Pub>{publication}, </Pub>
-                {date}
-              </Meta>
-            </Article>
-          ))}
+          <span style={{ fontWeight: 600 }}>Contact</span> me at
+          warrend555(at)gmail.com
         </Section>
       </Body>
     </Wrapper>

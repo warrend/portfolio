@@ -12,29 +12,33 @@ export const Header = styled.div`
   grid-template-columns: 150px 1fr;
   grid-column-gap: 1rem;
   margin-bottom: ${({ theme }) => theme.spacing.giant};
-  border-bottom: ${({ theme }) => `2px solid ${theme.colors.border}`};
+  border-bottom: ${({ theme }) => `5px solid ${theme.colors.border}`};
   padding-bottom: ${({ theme }) => theme.spacing.xLarge};
+  font-weight: 600;
+  font-size: 20px;
 
   @media ${({ theme }) => theme.device.tablet} {
     display: grid;
   }
 `;
 
-export const Body = styled.div`
+export const Block = styled.div`
   display: block;
   grid-template-columns: 150px 1fr;
   grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  align-items: start;
-  margin-bottom: ${({ theme }) => theme.spacing.large};
+  margin-bottom: ${({ theme }) => theme.spacing.giant};
+  border-bottom: ${({ theme }) => `5px solid ${theme.colors.border}`};
 
   @media ${({ theme }) => theme.device.tablet} {
     display: grid;
   }
 `;
 
+export const Body = styled.div``;
+
 export const Section = styled.div`
   margin-top: 0.1rem;
+  padding-bottom: ${({ theme }) => theme.spacing.large};
 `;
 
 export const Heading = styled.h1``;

@@ -8,7 +8,7 @@
 html {
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  border-top: 15px solid hsl(0, 0%, 90%);
+  border-top: 15px solid hsl(207, 93%, 52%);
 }
 @supports (font-variation-settings: normal) {
   html {
@@ -57,21 +57,21 @@ code {
 
 /* unvisited link */
 a:link {
-  color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 7%);
 }
 
 /* visited link */
 a:visited {
-  color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 7%);
 }
 
 /* mouse over link */
 a:hover {
-  color: hsl(303, 100%, 50%);
+  color: hsl(340, 100%, 62%);
   transition: 150ms;
 }
 
 /* selected link */
 a:active {
-  color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 7%);
 }
