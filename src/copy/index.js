@@ -3,7 +3,7 @@ const { githubIcon, linkedinIcon, codepenIcon } = theme.images;
 
 export default {
   about:
-    "Hey, I'm Daniel. I'm a software engineer currently working at Jigsaw XYZ. As an engineer, I continually use my array of technical and creative skills to solve problems in more efficient ways. I have had a wide range of experiences, from designing wallpaper to writing for television, making me a more well-rounded developer. I'm also super easy to work with and don't have an ego, unlike a lot of tech nerds.",
+    "Hey, I'm Daniel. I'm a software engineer currently working at Jigsaw XYZ. As an engineer, I continually use my array of technical and creative skills to solve problems in more efficient ways. I have had a wide range of experiences, from designing wallpaper to writing for television, making me a more well-rounded developer.",
   social: [
     {
       icon: githubIcon,
@@ -24,9 +24,9 @@ export default {
     {
       name: "My Mom's Beatles",
       description:
-        "A catalogue of my mom's Beatles newspaper clippings she collected in the 1960s.",
-      github: "https://github.com/warrend/ninety-nine",
-      demo: "https://warrend.github.io/ninety-nine/",
+        "My mom collected just about every Beatles article she could get her hands on in the 1960s. Below are some highlights from the collection.",
+      github: "https://github.com/warrend/mmb",
+      demo: "https://warrend.github.io/mmb",
     },
   ],
   publications: [
